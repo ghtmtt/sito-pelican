@@ -1,3 +1,8 @@
+<!-- questo template serve per elencare le varie pagine (anche post) scritti -->
+<!-- è la pagina che compare di default come home nel template -->
+<!-- togliendo block content la home è pulita (vuota) -->
+
+
 {% extends "base.html" %}
 {% block content %}
     {% if articles %}
@@ -11,7 +16,7 @@
                 {% endif %}
                 <div class="summary">{{ article.summary }}
                     {% include 'includes/comment_count.html' %}
-                    <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">{{ ('more') }} ...</a>
+                    <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">{{ gettext('Read more') }} ...</a>
                 </div>
             </article>
             <hr/>

@@ -33,9 +33,18 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+# include extras (images, css, ...) in the final output folder
+STATIC_PATHS = ['images']
+
+
+# Bootstrap options
 
 # dont show post categories on the top bar
 DISPLAY_CATEGORIES_ON_MENU = False
+
+# for ordering pages relative to the attribute metadata. ALL PAGES MUST HAVE IT!
+PAGE_ORDER_BY = 'attribute'
+PAGES_SORT_ATTRIBUTE = 'attribute'
 
 # HIDE_SIDEBAR = True
 
@@ -44,6 +53,8 @@ DISPLAY_CATEGORIES_ON_MENU = False
 THEME = "pelican-bootstrap3"
 BOOTSTRAP_THEME = "united"
 
+
+# Traslation environment with plugin and jinja
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ["../plugins"]

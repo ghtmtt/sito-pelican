@@ -1,10 +1,9 @@
-Title: About
-Slug: about
-lang: en
+Title: Chi sono
+Slug: chi-sono
+lang: it
 template: page_about
 attribute: 2
 
-
-Who I am!
+Chi sono io?
 
 ![Alt Text]({filename}/images/site/Ui_Saga.png)

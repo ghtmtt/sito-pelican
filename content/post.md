@@ -9,8 +9,4 @@ lang: en
 
 Some **Markdown** content, with some *formatting*.
 
-A list:
-
- - Milk
- - Butter
- - Eggs
+![Alt Text]({filename}/images/site/Ui_Saga.png)
