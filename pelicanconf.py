@@ -53,16 +53,12 @@ PLUGINS = ['i18n_subsites']
 I18N_SUBSITES = {
     'it': {
         'SITENAME': 'Il mio Sito',
-    },
-    'de': {
-        'SITENAME': 'Mi sitio',
     }
 }
 
 languages_lookup = {
     'en': 'English',
-    'it': 'Italiano',
-    'de': 'Deutsch'
+    'it': 'Italiano'
 }
 
 
