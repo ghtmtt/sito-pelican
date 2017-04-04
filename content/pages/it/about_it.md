@@ -1,9 +1,9 @@
 Title: Chi sono
-Slug: chi-sono
+Slug: about
 lang: it
 template: page_about
 attribute: 2
 
 Chi sono io?
 
-![Alt Text]({filename}/images/site/Ui_Saga.png)
+![Alt Text](/images/site/Ui_Saga.png)

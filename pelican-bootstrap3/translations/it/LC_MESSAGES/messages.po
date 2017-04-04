@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-04-01 12:45-0500\n"
-"PO-Revision-Date: 2017-04-01 12:45-0500\n"
+"POT-Creation-Date: 2017-04-04 12:42-0500\n"
+"PO-Revision-Date: 2017-04-04 12:40-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
 "Language-Team: it <LL@li.org>\n"
@@ -17,29 +17,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Language: it_IT\n"
+"X-Language: it\n"
 "X-Source-Language: en\n"
+
+#: templates/article_list-blog.html:19 templates/article_list.html:19
+msgid "Read more"
+msgstr "Leggi di più"
 
 #: templates/author.html:9
 msgid "Authors"
-msgstr "Autori"
+msgstr ""
 
-#: templates/base.html:155
+#: templates/base-blog.html:210 templates/base.html:210
+#: templates/base_page.html:212 templates/index.html:210
 msgid "Archives"
-msgstr "Archivio"
+msgstr ""
 
 #: templates/categories.html:8 templates/category.html:11
-#: templates/includes/sidebar.html:46
+#: templates/includes/sidebar-blog.html:9 templates/includes/sidebar.html:46
 msgid "Categories"
 msgstr "Categorie"
 
+#: templates/index.html:226
+msgid "I am Here"
+msgstr "Io sono qui con tutti VOI"
+
 #: templates/search.html:4
 msgid "Search"
-msgstr "Ricerca"
+msgstr ""
 
 #: templates/includes/aboutme.html:9
 msgid "About"
-msgstr "Chi Sono"
+msgstr ""
 
 #: templates/includes/article_info.html:8
 msgid "Modified"
@@ -87,7 +96,7 @@ msgstr ""
 
 #: templates/includes/sidebar.html:11
 msgid "a translatable string"
-msgstr "una stringa tradotta"
+msgstr ""
 
 #: templates/includes/sidebar.html:32
 msgid "Recent Posts"
@@ -108,3 +117,12 @@ msgstr ""
 #: templates/includes/translations.html:3
 msgid "Lang"
 msgstr ""
+
+#~ msgid "Ciaooooo"
+#~ msgstr ""
+
+#~ msgid "Dio"
+#~ msgstr ""
+
+#~ msgid "prova di stringa in index"
+#~ msgstr ""

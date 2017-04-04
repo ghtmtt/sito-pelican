@@ -133,13 +133,38 @@
 
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for p in pages | sort(attribute=PAGES_SORT_ATTRIBUTE) %}
-                        {% if p.url %}
-                         <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">
+                        <li class="active">
+
+                        <!-- se il metadato unique è = a corsi, allora fai dropdown -->
+
+                        {% if p.dropdown %}
+
+                        <li class="dropdown">
+                          <a class="dropdown-content"  href="{{ SITEURL }}/{{ p.url }}">
+                            {{ p.menulabel|default(p.title) }}
+                            <span class="caret"></span>
+                          </a>
+
+                            <ul class="dropdown-menu">
+                              <li><a href="#">HTML</a></li>
+                              <li><a href="#">CSS</a></li>
+                              <li><a href="#">JavaScript</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- se invece il metdadato non è corsi, vai con il resto -->
+
+                        {% elif p.url %}
+                         <li{% if p == page %} class="active"{% endif %}>
+                          <a href="{{ SITEURL }}/{{ p.url }}">
                              {{ p.menulabel|default(p.title) }}
-                          </a></li>
+                          </a>
+                        </li>
                         {% endif %}
                       {% endfor %}
                 {% endif %}
+
+
                 {% if DISPLAY_CATEGORIES_ON_MENU %}
                     {% for cat, null in categories %}
                         <li {% if cat == category %}class="active"{% endif %}>
@@ -148,22 +173,32 @@
                     {% endfor %}
                 {% endif %}
             </ul>
+
             <ul class="nav navbar-nav navbar-right">
 
-              {% if lang_siteurls %}
-                {% for lang, siteurl in lang_siteurls.items() %}
-                {% if lang == DEFAULT_LANG %}
-                <li class="active">
-                  <!-- modo pulito di tornare al sito iniziare quando inglese selezionato -->
-                  <a href="{{ SITEURL }}/{{ relpath_to_site(DEFAULT_LANG, main_lang) }}">{{ lang | lookup_lang_name}}</a>
-                </li>
-                {% else %}
-                <li>
-                  <a href="{{ siteurl }}">{{ lang | lookup_lang_name}}</a>
-                {% endif %}
-                </li>
-                {% endfor %}
-              {% endif %}
+              {% for lang, url in lang_siteurls.items() %}
+
+              <li{% if lang == DEFAULT_LANG %} class="active"{% endif %}>
+
+              <a href={% if article and lang != DEFAULT_LANG %}
+              "{{ SITEURL }}/{{ article | extract_trans(lang, url) }}"
+
+              {% elif article %}
+              "{{ SITEURL }}/{{ article.url }}"
+
+              {% elif page and lang != DEFAULT_LANG %}
+              "{{ SITEURL }}/{{ page | extract_trans(lang, url) }}"
+
+              {% elif page %}
+              "{{ SITEURL }}/{{ page.url }}"
+
+
+              {% else %}"{{ url }}"
+
+              {% endif %}>{{ lang | lookup_lang_name }}</a>
+              </li>
+
+            {% endfor %}
 
 
             {% if 'tipue_search' in PLUGINS %}

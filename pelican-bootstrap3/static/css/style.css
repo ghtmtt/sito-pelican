@@ -1,5 +1,5 @@
 body {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 #sidebar .list-group, #sidebar .list-group-item {
@@ -238,4 +238,25 @@ figure.floatcenter, .align-center {
 
 .gap-left {
   margin-left: 10px;
+}
+
+.headerlink {
+    color: rgba(192,192,192,0.5);
+    padding-left: .5em;
+    visibility: visible;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
 }

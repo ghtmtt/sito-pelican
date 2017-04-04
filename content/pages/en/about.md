@@ -7,4 +7,4 @@ attribute: 2
 
 Who I am!
 
-![Alt Text]({filename}/images/site/Ui_Saga.png)
+![Alt Text](/images/site/Ui_Saga.png)

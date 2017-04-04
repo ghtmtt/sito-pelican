@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-04-01 12:45-0500\n"
+"POT-Creation-Date: 2017-04-04 12:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
+#: templates/article_list-blog.html:19 templates/article_list.html:19
+msgid "Read more"
+msgstr ""
+
 #: templates/author.html:9
 msgid "Authors"
 msgstr ""
 
-#: templates/base.html:155
+#: templates/base-blog.html:210 templates/base.html:210
+#: templates/base_page.html:212 templates/index.html:210
 msgid "Archives"
 msgstr ""
 
 #: templates/categories.html:8 templates/category.html:11
-#: templates/includes/sidebar.html:46
+#: templates/includes/sidebar-blog.html:9 templates/includes/sidebar.html:46
 msgid "Categories"
+msgstr ""
+
+#: templates/index.html:226
+msgid "I am Here"
 msgstr ""
 
 #: templates/search.html:4
