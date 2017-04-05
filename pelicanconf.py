@@ -51,7 +51,7 @@ DISPLAY_CATEGORIES_ON_SIDEBAR = True
 PAGE_ORDER_BY = 'attribute'
 PAGES_SORT_ATTRIBUTE = 'attribute'
 
-LOAD_CONTENT_CACHE = False
+# LOAD_CONTENT_CACHE = False
 
 MARKDOWN = {
     'extension_configs': {
@@ -72,6 +72,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ["../plugins"]
 PLUGINS = ['i18n_subsites', 'headerid']
 
+
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'it': {
@@ -79,15 +80,13 @@ I18N_SUBSITES = {
         #     ('Blog', '/pages/about.html')
         # ],
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
-        'CATEGORIES_SAVE_AS': 'pages/category.html'
     },
     'en': {
         # 'MENUITEMS': [
         #     ('Blog', '/pages/courses.html')
         # ],
-        'OUTPUT_PATH': 'output/en',
+        # 'OUTPUT_PATH': 'output/en',
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
-        'CATEGORIES_SAVE_AS': 'pages/category.html'
     },
 }
 
