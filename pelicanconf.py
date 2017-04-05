@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Matteo Ghetta'
 SITENAME = u'GeoPenguin'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 
 PATH = 'content'
 
