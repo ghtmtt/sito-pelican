@@ -1,5 +1,7 @@
 Title: Blog
 Slug: blog
 lang: en
-attribute: 3
+attribute: 4
 template: index-blog
+dropdown: no
+dropdown2: no

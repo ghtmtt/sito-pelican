@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base_page.html" %}
 {% block title %}{{ ('Categories') }} - {{ SITENAME }}{% endblock %}
 
 {% block breadcrumbs %}
@@ -12,7 +12,7 @@
 
 {% block content %}
     <section id="categories">
-      <h1>{{ ('All Categories for')  }} {{ SITENAME }}</h1>
+      <h1>{{ _('All Blog Categories')  }} </h1>
         <div class="panel-group" id="accordion">
             {% for category, articles in categories %}
             <div class="panel panel-default">

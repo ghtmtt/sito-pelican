@@ -2,7 +2,7 @@ Title: Corsi
 Slug: corsi
 lang: it
 attribute: 1
-unique: corsi
+dropdown: yes
 
 Questa è la pagina di tutti i corsi. Come si metteranno i link ad altre pagine
 senza che le pagine compaiano nella navbar?!

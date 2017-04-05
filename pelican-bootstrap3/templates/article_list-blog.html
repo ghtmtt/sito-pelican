@@ -3,7 +3,7 @@
 <!-- togliendo block content la home è pulita (vuota) -->
 
 
-{% extends "base-blog.html" %}
+{% extends "base-article.html" %}
 {% block content %}
     {% if articles %}
         {% for article in (articles_page.object_list if articles_page else articles) %}

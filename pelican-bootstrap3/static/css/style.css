@@ -247,14 +247,16 @@ figure.floatcenter, .align-center {
 }
 
 .header-image {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 500px;
+  margin:0;
+  padding:0px;
+  background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+  /*text-align: center;*/
+  vertical-align: middle
 }
 
 .headline {

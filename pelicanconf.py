@@ -31,7 +31,8 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
+# DISPLAY_BREADCRUMBS = True
 
 # include extras (images, css, ...) in the final output folder
 STATIC_PATHS = ['images']
@@ -44,6 +45,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 # categories on the lateral sidebar
 DISPLAY_CATEGORIES_ON_SIDEBAR = True
+
 
 # for ordering pages relative to the attribute metadata. ALL PAGES MUST HAVE IT!
 PAGE_ORDER_BY = 'attribute'
@@ -77,6 +79,7 @@ I18N_SUBSITES = {
         #     ('Blog', '/pages/about.html')
         # ],
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
+        'CATEGORIES_SAVE_AS': 'pages/category.html'
     },
     'en': {
         # 'MENUITEMS': [
@@ -84,6 +87,7 @@ I18N_SUBSITES = {
         # ],
         'OUTPUT_PATH': 'output/en',
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
+        'CATEGORIES_SAVE_AS': 'pages/category.html'
     },
 }
 

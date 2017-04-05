@@ -5,6 +5,7 @@ First RST post
 :category: yeah
 :slug: rst-post
 :author: Matteo Ghetta
+:tags: toc, images
 
 Ciao
 ====

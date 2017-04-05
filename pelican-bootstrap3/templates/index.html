@@ -131,38 +131,7 @@
 
                 <!-- fa vedere le pagine sulla navbar -->
 
-                {% if DISPLAY_PAGES_ON_MENU %}
-                    {% for p in pages | sort(attribute=PAGES_SORT_ATTRIBUTE) %}
-                        <li class="active">
-
-                        <!-- se il metadato unique è = a corsi, allora fai dropdown -->
-
-                        {% if p.unique == 'corsi' %}
-
-                        <li class="dropdown">
-                          <a class="dropdown-content"  href="{{ SITEURL }}/{{ p.url }}">
-                            {{ p.menulabel|default(p.title) }}
-                            <span class="caret"></span>
-                          </a>
-
-                            <ul class="dropdown-menu">
-                              <li><a href="#">HTML</a></li>
-                              <li><a href="#">CSS</a></li>
-                              <li><a href="#">JavaScript</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- se invece il metdadato non è corsi, vai con il resto -->
-
-                        {% elif p.url %}
-                         <li{% if p == page %} class="active"{% endif %}>
-                          <a href="{{ SITEURL }}/{{ p.url }}">
-                             {{ p.menulabel|default(p.title) }}
-                          </a>
-                        </li>
-                        {% endif %}
-                      {% endfor %}
-                {% endif %}
+                {% include 'includes/nav-menu.html' %}
 
                 {% if DISPLAY_CATEGORIES_ON_MENU %}
                     {% for cat, null in categories %}
@@ -221,12 +190,13 @@
 a parte navbar e footer -->
 
 <!-- Full Width Image Header -->
+<div class="container-fluid">
     <div class="row">
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+                <h1>GeoPenguin</h1>
+                <h3>Open Source Ideas</h3>
             </div>
         </div>
     </header>
@@ -237,19 +207,19 @@ a parte navbar e footer -->
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+        <div class="featurette">
             <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
+            <span class="text-muted">Will Catch Your Eye</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">{{ _('Geographer, Computer Software, Traveler') }}</p>
 					</div>
 </div>
 </div>
+</div>
 
 
 
-
+{% include 'includes/footer.html' %}
 
 
 
