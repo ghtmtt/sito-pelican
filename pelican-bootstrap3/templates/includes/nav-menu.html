@@ -118,7 +118,30 @@
     "{{ SITEURL }}/{{ page.url }}"
 
 
-    {% else %}"{{ url }}"
+    {% else %}
+			{% if page_name == 'index' and lang != DEFAULT_LANG %}
+			"{{ SITEURLABS }}/{{ lang }}"
+
+			{% elif page_name == 'index' %}
+			"{{ SITEURL }}"
+
+
+			{% elif page_name == 'categories' and lang != DEFAULT_LANG %}
+			"{{ SITEURLABS }}/{{ lang }}/categories.html"
+
+			{% elif page_name == 'categories' %}
+			"{{ SITEURLABS }}/"
+
+			{% elif page_name == 'tags' and lang != DEFAULT_LANG %}
+			"{{ SITEURLABS }}/{{ lang }}/tags.html"
+
+			{% elif page_name == 'tags' %}
+			"{{ SITEURLABS }}/"
+
+			{% else%}
+			"{{ output_file }}"
+
+			{% endif %}
 
     {% endif %}>{{ lang | lookup_lang_name }}</a>
     </li>

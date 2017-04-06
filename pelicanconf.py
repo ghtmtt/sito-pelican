@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = u'Matteo Ghetta'
 SITENAME = u'GeoPenguin'
 SITEURL = ''
+SITEURLABS = SITEURL
+
 
 PATH = 'content'
 
@@ -124,3 +126,11 @@ JINJA_FILTERS = {
 }
 
 GOOGLE_ANALYTICS = "UA-96942229-1"
+
+# for the moment, hardcode index, category and tag pages for languages
+INDEX_EN = 'http://localhost:8000/en/'
+INDEX_IT = 'http://localhost:8000/it/'
+CATEGORY_EN = ''
+CATEGORY_IT = ''
+TAG_EN = ''
+TAG_IT = ''
