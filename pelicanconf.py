@@ -122,3 +122,5 @@ JINJA_FILTERS = {
     'extract_trans': extract_trans,
     'extract_en_pages': extract_en_pages
 }
+
+GOOGLE_ANALYTICS = "UA-96942229-1"
