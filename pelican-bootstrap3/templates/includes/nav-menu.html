@@ -94,17 +94,22 @@
           {% endfor %}
       {% endif %}
   </ul>
+
+
+<!-- language options -->
+
   <ul class="nav navbar-nav navbar-right">
 
     {% for lang, url in lang_siteurls.items() %}
 
     <li{% if lang == DEFAULT_LANG %} class="active"{% endif %}>
 
-    <a href={% if article and lang != DEFAULT_LANG %}
+    <a href={% if article and not article.tran and lang != DEFAULT_LANG %}
     "{{ SITEURL }}/{{ article | extract_trans(lang, url) }}"
 
     {% elif article %}
     "{{ SITEURL }}/{{ article.url }}"
+
 
     {% elif page and lang != DEFAULT_LANG %}
     "{{ SITEURL }}/{{ page | extract_trans(lang, url) }}"
