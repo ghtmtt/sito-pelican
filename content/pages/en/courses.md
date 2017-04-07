@@ -1,5 +1,5 @@
 Title: Courses
-Slug: corsi
+Slug: courses
 lang: en
 attribute: 1
 dropdown: yes

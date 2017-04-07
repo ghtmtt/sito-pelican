@@ -33,7 +33,7 @@
 
         <!-- se il metadato unique è = a corsi, allora fai dropdown -->
 
-        {% if p.dropdown or p.dropdown2%}
+        {% if p.dropdown %}
 
         {% if p.dropdown == 'yes' %}
 
@@ -45,13 +45,14 @@
           <!-- link relativi a pagine specifiche -->
 
             <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}/pages/courses.html">{{ _('All Courses')}}</a></li>
               <li><a href="{{ SITEURL }}/pages/qgis-course.html">QGIS</a></li>
               <li><a href="{{ SITEURL }}/pages/r-course.html">R & RStudio</a></li>
               <li><a href="{{ SITEURL }}/pages/linux-course.html">Linux</a></li>
             </ul>
         </li>
 
-        {% elif p.dropdown2%}
+        {% elif p.dropdown == 'blog'%}
 
 				<li class="dropdown">
         <a href="#" data-toggle="dropdown" class="dropdown-toggle">
@@ -61,8 +62,25 @@
           <!-- link relativi a pagine specifiche -->
 
             <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}/pages/blog.html">{{ _('Blog Posts')}}</a></li>
               <li><a href="{{ SITEURL }}/categories.html">{{ _('Categories')}}</a></li>
               <li><a href="{{ SITEURL }}/tags.html">{{ _('Tags')}}</a></li>
+            </ul>
+        </li>
+
+
+				{% elif p.dropdown == 'about'%}
+
+				<li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+					{{ p.menulabel|default(p.title) }}
+				<b class="caret"></b></a>
+
+          <!-- link relativi a pagine specifiche -->
+
+            <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}/pages/about.html">{{ _('About Me')}}</a></li>
+              <li><a href="{{ SITEURL }}/pages/cv.html">{{ _('CV')}}</a></li>
             </ul>
         </li>
 

@@ -3,5 +3,4 @@ Slug: blog
 lang: it
 attribute: 4
 template: index-blog
-dropdown: no
-dropdown2: no
+dropdown: blog

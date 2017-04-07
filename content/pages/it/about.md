@@ -3,6 +3,8 @@ Slug: about
 lang: it
 template: page_about
 attribute: 2
+dropdown: about
+
 
 Chi sono io?
 
