@@ -138,6 +138,11 @@
 			{% elif page_name == 'tags' %}
 			"{{ SITEURLABS }}/"
 
+			{% elif page_name == 'archives' and lang != DEFAULT_LANG %}
+			"{{ SITEURLABS }}/{{ lang }}/archives.html"
+
+			{% elif page_name == 'archives' %}
+			"{{ SITEURLABS }}/"
 
 			{% else%}
 			"{{ output_file }}"
@@ -157,7 +162,9 @@
       </form></span>
     </li>
   {% endif %}
-	
+  {% if ARCHIVES_SAVE_AS %}
+    <li><a href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}"><i class="fa fa-th-list"></i><span class="icon-label">{{ _('Archives') }}</span></a></li>
+  {% endif %}
   </ul>
 </div>
 <!-- /.navbar-collapse -->

@@ -136,3 +136,6 @@ TAG_IT = ''
 
 # needed for the searching bar. **ALL TEMPLATED MUST BE ADDED**
 DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'search']
+
+
+ARCHIVES_SAVE_AS = 'archives.html'
