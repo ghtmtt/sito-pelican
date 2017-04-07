@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base-blog.html" %}
 {% block title %}{{ ('Archives') }} - {{ SITENAME }}{% endblock %}
 {% block breadcrumbs %}
     {% if DISPLAY_BREADCRUMBS %}
@@ -11,7 +11,7 @@
 
 {% block content %}
     <section id="content">
-      <h1>{{ ('Archives for') }} {{ SITENAME }}</h1>
+      <h1>{{ _('Archives of all the post') }}</h1>
         <div id="archives">
             {% for article in dates %}
                 <p>

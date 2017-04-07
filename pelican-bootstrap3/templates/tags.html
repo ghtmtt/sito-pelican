@@ -1,6 +1,6 @@
-{% extends "base_page.html" %}
+{% extends "base-blog.html" %}
 
-{% block title %}Tags - {{ SITENAME }}{% endblock %}
+{% block title %}{{ _('Tags') }}  - {{ SITENAME }}{% endblock %}
 
 {% block breadcrumbs %}
     {% if DISPLAY_BREADCRUMBS %}
@@ -13,8 +13,8 @@
 
 {% block content %}
     <section id="tags">
-        <h1>{{ _('All available tags') }}</h1>
-        <div class="panel-group" id="accordion">
+        <h1>{{ _('All Blog Tags') }}</h1>
+            <div class="col-sm-8">
             {%- for tag, articles in tags|sort %}
             <div class="panel panel-default">
                 <div class="panel-heading">

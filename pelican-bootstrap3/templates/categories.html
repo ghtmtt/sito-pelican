@@ -1,5 +1,5 @@
-{% extends "base_page.html" %}
-{% block title %}{{ ('Categories') }} - {{ SITENAME }}{% endblock %}
+{% extends "base-blog.html" %}
+{% block title %}{{ _('Categories') }} - {{ SITENAME }}{% endblock %}
 
 {% block breadcrumbs %}
     {% if DISPLAY_BREADCRUMBS %}
@@ -13,8 +13,9 @@
 {% block content %}
     <section id="categories">
       <h1>{{ _('All Blog Categories')  }} </h1>
-        <div class="panel-group" id="accordion">
+          <div class="col-sm-6">
             {% for category, articles in categories %}
+
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
