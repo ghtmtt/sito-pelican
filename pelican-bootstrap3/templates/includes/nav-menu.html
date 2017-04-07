@@ -38,10 +38,9 @@
         {% if p.dropdown == 'yes' %}
 
         <li class="dropdown">
-          <a class="dropdown-content"  href="{{ SITEURL }}/{{ p.url }}">
-            {{ p.menulabel|default(p.title) }}
-            <span class="caret"></span>
-          </a>
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+					{{ p.menulabel|default(p.title) }}
+				<b class="caret"></b></a>
 
           <!-- link relativi a pagine specifiche -->
 
@@ -54,11 +53,10 @@
 
         {% elif p.dropdown2%}
 
-        <li class="dropdown">
-          <a class="dropdown-content"  href="{{ SITEURL }}/{{ p.url }}">
-            {{ p.menulabel|default(p.title) }}
-            <span class="caret"></span>
-          </a>
+				<li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+					{{ p.menulabel|default(p.title) }}
+				<b class="caret"></b></a>
 
           <!-- link relativi a pagine specifiche -->
 
@@ -157,7 +155,7 @@
       </form></span>
     </li>
   {% endif %}
-	
+
   </ul>
 </div>
 <!-- /.navbar-collapse -->
