@@ -7,6 +7,10 @@ dropdown: about
 
 
 
-Who I am!
+Who I am!  continio a scrivere chissa che succede
 
-![Alt Text](/images/site/Ui_Saga.png)
+![Alt Text](/images/site/Ui_Saga.png){: .image-right}
+
+
+
+<!-- ![Alt Text](/images/site/Ui_Saga.png) -->

@@ -262,3 +262,11 @@ figure.floatcenter, .align-center {
 .headline {
     padding: 120px 0;
 }
+
+/*style to call with the images in markdown*/
+/*'markdown.extensions.attr_list': {}, has to be activated in pelicanconfig*/
+/*use is simple: ![Alt Text](/images/site/Ui_Saga.png){: .image-right}*/
+
+.image-right {
+    float: right;
+}

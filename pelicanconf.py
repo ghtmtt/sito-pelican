@@ -60,6 +60,7 @@ MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.toc': {'permalink': True},
+        'markdown.extensions.attr_list': {},
     }
 }
 
