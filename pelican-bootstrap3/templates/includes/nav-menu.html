@@ -154,6 +154,12 @@
 			{% elif page_name == 'tags' %}
 			"{{ SITEURLABS }}/"
 
+			{% elif page_name == 'archives' and lang != DEFAULT_LANG %}
+			"{{ SITEURLABS }}/{{ lang }}/archives.html"
+
+			{% elif page_name == 'archives' %}
+			"{{ SITEURLABS }}/"
+
 
 			{% else%}
 			"{{ output_file }}"
