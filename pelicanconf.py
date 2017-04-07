@@ -5,12 +5,13 @@ from __future__ import unicode_literals
 AUTHOR = u'Matteo Ghetta'
 SITENAME = u'GeoPenguin'
 SITEURL = ''
+# workaround to make languages work, see includes/nav.bar
 SITEURLABS = SITEURL
 
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = u'en'
 
@@ -53,8 +54,8 @@ DISPLAY_CATEGORIES_ON_SIDEBAR = True
 PAGE_ORDER_BY = 'attribute'
 PAGES_SORT_ATTRIBUTE = 'attribute'
 
-# LOAD_CONTENT_CACHE = False
 
+# markdown extension and values
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
@@ -71,10 +72,12 @@ BOOTSTRAP_THEME = "united"
 # Traslation environment with plugin and jinja
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
+# plugins loading
 PLUGIN_PATHS = ["../plugins"]
 PLUGINS = ['i18n_subsites', 'headerid', 'tipue_search']
 
 
+# Settings for i18n plugin, folder, etc
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'it': {
@@ -112,22 +115,17 @@ def extract_trans(article, lang, url):
     return url
 
 
-def extract_en_pages(page, lang, url):
-    for i in page.translations:
-        if i.lang == DEFAULT_LANG:
-            return i.url
-    return url
-
-
 JINJA_FILTERS = {
     'lookup_lang_name': lookup_lang_name,
     'extract_trans': extract_trans,
-    'extract_en_pages': extract_en_pages
 }
 
+
+# google analytics code
 GOOGLE_ANALYTICS = "UA-96942229-1"
 
 # for the moment, hardcode index, category and tag pages for languages
+# see includes/nav-bar
 INDEX_EN = 'http://localhost:8000/en/'
 INDEX_IT = 'http://localhost:8000/it/'
 CATEGORY_EN = ''
@@ -136,5 +134,5 @@ TAG_EN = ''
 TAG_IT = ''
 
 
-# needed for the searching bar. **ALL TEMPLATED MUST BE ADDED** 
+# needed for the searching bar. **ALL TEMPLATED MUST BE ADDED**
 DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'search']
