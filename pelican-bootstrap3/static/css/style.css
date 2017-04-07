@@ -269,4 +269,5 @@ figure.floatcenter, .align-center {
 
 .image-right {
     float: right;
+    align: right
 }
