@@ -48,6 +48,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 # categories on the lateral sidebar
 DISPLAY_CATEGORIES_ON_SIDEBAR = True
+SHOW_ARTICLE_CATEGORY = True
 
 
 # for ordering pages relative to the attribute metadata. ALL PAGES MUST HAVE IT!
