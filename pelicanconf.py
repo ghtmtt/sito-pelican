@@ -72,7 +72,7 @@ BOOTSTRAP_THEME = "united"
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ["../plugins"]
-PLUGINS = ['i18n_subsites', 'headerid']
+PLUGINS = ['i18n_subsites', 'headerid', 'tipue_search']
 
 
 # mapping: language_code -> settings_overrides_dict
@@ -134,3 +134,7 @@ CATEGORY_EN = ''
 CATEGORY_IT = ''
 TAG_EN = ''
 TAG_IT = ''
+
+
+# needed for the searching bar. **ALL TEMPLATED MUST BE ADDED** 
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'search']
