@@ -34,7 +34,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = False
 # DISPLAY_BREADCRUMBS = True
 
 # include extras (images, css, ...) in the final output folder
