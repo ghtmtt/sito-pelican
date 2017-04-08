@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Matteo Ghetta'
 SITENAME = u'GeoPenguin'
-SITEURL = 'geopenguin.com'
+SITEURL = 'http://geopenguin.com'
 # workaround to make languages work, see includes/nav.bar
 SITEURLABS = SITEURL
 
