@@ -147,3 +147,7 @@ DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'searc
 
 
 ARCHIVES_SAVE_AS = 'archives.html'
+
+
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+RECENT_POST_COUNT = 2
