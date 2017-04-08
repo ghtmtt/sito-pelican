@@ -126,6 +126,7 @@ JINJA_FILTERS = {
 # google analytics code
 GOOGLE_ANALYTICS = "UA-96942229-1"
 DISQUS_SITENAME = "geopenguin"
+DISQUS_URL = "http://geopenguin.com"
 
 # for the moment, hardcode index, category and tag pages for languages
 # see includes/nav-bar
