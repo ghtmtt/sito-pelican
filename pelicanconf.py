@@ -127,9 +127,9 @@ JINJA_FILTERS = {
 GOOGLE_ANALYTICS = "UA-96942229-1"
 
 # settings for the comments
-DISQUS_SITENAME = "geopenguin"
+# DISQUS_SITENAME = "geopenguin"
 # hack to make the url absolute, see comments.html
-DISQUS_URL = "http://geopenguin.com"
+# DISQUS_URL = "http://geopenguin.com"
 
 
 # for the moment, hardcode index, category and tag pages for languages
@@ -160,3 +160,6 @@ DATE_FORMATS = {
 
 # number of words that are going to be shown to the post list for each post
 SUMMARY_MAX_LENGTH = 5
+
+# change comment system to intensedebate
+INTENSEDEBATE_ACCOUNT = 'be394b01f4741443baeaa3300ae5b695'
