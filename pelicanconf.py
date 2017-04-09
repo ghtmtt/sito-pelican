@@ -148,13 +148,15 @@ DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'tags', 'searc
 
 ARCHIVES_SAVE_AS = 'archives.html'
 
-
+# settings for the sidebar and recents post count
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 RECENT_POST_COUNT = 2
 
-# DEFAULT_DATE_FORMAT = '%d %b %Y'
-
+# locale formats (seems not working for the archives)
 DATE_FORMATS = {
     'en': '%d %b %Y',
     'it': '%d %b %Y',
 }
+
+# number of words that are going to be shown to the post list for each post
+SUMMARY_MAX_LENGTH = 5
