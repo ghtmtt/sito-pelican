@@ -19,7 +19,8 @@
               {% for article in articles[:RECENT_POST_COUNT] %}
                   <li class="list-group-item">
                       <a href="{{ SITEURL }}/{{ article.url }}">
-                          {{ article.title }}
+                        <span class="label label-default">{{ article.locale_date }}</span>
+                        {{ article.title }}
                       </a>
                   </li>
               {% endfor %}
