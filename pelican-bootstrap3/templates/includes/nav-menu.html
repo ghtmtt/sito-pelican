@@ -62,9 +62,23 @@
           <!-- link relativi a pagine specifiche -->
 
             <ul class="dropdown-menu">
-              <li><a href="{{ SITEURL }}/pages/blog.html">{{ _('Blog Posts')}}</a></li>
-              <li><a href="{{ SITEURL }}/categories.html">{{ _('Categories')}}</a></li>
-              <li><a href="{{ SITEURL }}/tags.html">{{ _('Tags')}}</a></li>
+              <li>
+								<a href="{{ SITEURL }}/pages/blog.html">
+									<i class="fa fa-newspaper-o"></i>
+									{{ _('Blog Posts')}}
+								</a></li>
+              <li>
+								<a href="{{ SITEURL }}/categories.html">
+									<i class="fa fa-book fa-lg"></i>{{ _('Categories')}}
+								</a></li>
+              <li>
+								<a href="{{ SITEURL }}/tags.html">
+									<i class="fa fa-tags fa-lg"></i>{{ _('Tags')}}
+								</a></li>
+              <li>
+								<a href="{{ SITEURL }}/archives.html">
+									<i class="fa fa-th-list"></i>
+									{{ _('Post Archives')}}</a></li>
             </ul>
         </li>
 

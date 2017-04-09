@@ -6,7 +6,7 @@
     <ul class="list-group list-group-flush">
 
 
-      {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR and page_name == 'categories' or page_name == 'tags' %}
+      {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR  %}
           {% if RECENT_POST_COUNT is not defined %}
               {% set RECENT_POST_COUNT = 5 %}
           {% endif %}
