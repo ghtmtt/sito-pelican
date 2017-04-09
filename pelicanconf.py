@@ -163,3 +163,6 @@ SUMMARY_MAX_LENGTH = 5
 
 # change comment system to intensedebate
 INTENSEDEBATE_ACCOUNT = 'be394b01f4741443baeaa3300ae5b695'
+
+# sharing buttons at the end of the article
+ADDTHIS_PROFILE = "ra-58ea5b728ede68c1"
