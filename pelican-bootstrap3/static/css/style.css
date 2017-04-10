@@ -80,7 +80,7 @@ a, a:hover {
 
 .entry-content a {
     text-decoration: none;
-    border-bottom: 1px dotted;
+    /*border-bottom: 1px dotted;*/
     color: #dd4814;
 }
 
@@ -242,7 +242,7 @@ figure.floatcenter, .align-center {
 }
 
 .headerlink {
-    color: rgba(192,192,192,0.5);
+    color: rgba(192,192,192,0.5) !important;
     padding-left: .5em;
     visibility: visible;
 }
