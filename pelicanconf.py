@@ -38,7 +38,7 @@ RELATIVE_URLS = False
 # DISPLAY_BREADCRUMBS = True
 
 # include extras (images, css, ...) in the final output folder
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extras']
 
 
 # Bootstrap options

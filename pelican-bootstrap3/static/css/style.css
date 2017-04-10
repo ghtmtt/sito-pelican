@@ -81,6 +81,7 @@ a, a:hover {
 .entry-content a {
     text-decoration: none;
     border-bottom: 1px dotted;
+    color: #dd4814;
 }
 
 .entry-content a:hover {
@@ -267,7 +268,14 @@ figure.floatcenter, .align-center {
 /*'markdown.extensions.attr_list': {}, has to be activated in pelicanconfig*/
 /*use is simple: ![Alt Text](/images/site/Ui_Saga.png){: .image-right}*/
 
-.image-right {
+.image-me {
     float: right;
-    align: right
+    align: right;
+    width: 30%;
+    padding: 15px;
+}
+
+.image-me {
+    float: right;
+    align: right;
 }

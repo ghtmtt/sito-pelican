@@ -5,4 +5,4 @@ status: hidden
 template: page_about
 
 
-Questo è il mio CV. In fondo lo puoi scaricare come pdf!
+Questo è il mio CV. In fondo lo puoi [scaricare come pdf](extras/../../Matteo_Ghetta_CV.pdf)
