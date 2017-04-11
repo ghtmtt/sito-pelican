@@ -1,4 +1,4 @@
-Title: CV
+Title: Curriculum Vitae
 Slug: cv
 lang: it
 status: hidden
@@ -22,9 +22,13 @@ Da molti anni sono coninvolto in prima persona nel software open source [QGIS](w
     - autore di numerosi *Unit Test* del plugin Processing di QGIS
     - partecipo da anni agli incontri semestrali con gli sviluppatori di QGIS
 
+&nbsp;
+
 * **SpatiaLite** e **PostGIS**
     - maturata esperienza nell'organizzazione di database spaziali
     - funzionalità di base e query avanzate
+
+&nbsp;
 
 * **Cartografia e assistenza tecnica**:
     - creazione avanzata di mappe tematiche
@@ -42,6 +46,8 @@ Da 10 anni utilizzo Linux come sistema operativo (distribuzioni Debian based com
     - scrittura di diversi plugin per QGIS
     - linguaggio di scripting *standalone* o accompagnato ad altri software (QGIS) per aumentare la produttività
 
+&nbsp;
+
 * **R** ed **RStudio**:
     - forti competenze in scripting e gestione di molti di dati consistenti
     - creazione di progetti ad hoc e velocizzazione delle operazioni
@@ -49,12 +55,16 @@ Da 10 anni utilizzo Linux come sistema operativo (distribuzioni Debian based com
     - uso di diversi pacchetti importanti (ggplot2, reshape2, dplyr, plotly)
     - integrazione di R in QGIS ([vedi contributo nel manuale di QGIS](http://docs.qgis.org/testing/en/docs/training_manual/processing/r_intro.html))
 
+&nbsp;
+
 * **software di controllo versione**:
     - maturata esperienza con [git](https://git-scm.com/)
     - utilizzo di diversi web hosting (github, gitlab, bitbucket)
     - gestione di diversi repository pubblici e privati
     - profilo [gihub](https://github.com/ghtmtt)
     - profilo [gitlab](https://gitlab.com/ghtmtt)
+
+&nbsp;
 
 * **Web**:
     - esperienza medio-avanzata di HTML e CSS

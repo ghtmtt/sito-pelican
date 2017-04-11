@@ -1,4 +1,4 @@
-Title: CV
+Title: Curriculum Vitae
 Slug: cv
 lang: en
 status: hidden
@@ -23,9 +23,13 @@ I am involved with the development team of [QGIS](www.qgis.org), but I have also
     - author of several *Unit Tests* for Processing plugin
     - since 2012 I participate to the development team *HackFest*
 
+&nbsp;
+
 * **SpatiaLite** and **PostGIS**
     - good experience with the data organization
     - advanced functions and database queries
+
+&nbsp;
 
 * **Cartography and technical assistance**:
     - advanced thematical map creation
@@ -46,12 +50,16 @@ I started to use Linux 10 years ago (Debian based distribution like Debian, Ubun
     - several QGIS plugin written
     - use as standalone language or together with other software (QGIS) tu increase the productivity
 
+&nbsp;
+
 * **R** and **RStudio**:
     - very strong competences in scripting and management of significant datasets
     - ad hoc project creation
     - time series analysis
     - use of several packages (ggplot2, reshape2, dplyr, plotly)(ggplot2, reshape2, dplyr, plotly)
     - integration of R into QGIS ([see dedicated chapter in the QGIS documentation](http://docs.qgis.org/testing/en/docs/training_manual/processing/r_intro.html))
+
+&nbsp;
 
 * **version control software**:
     - strong experience of [git](https://git-scm.com/)
@@ -60,9 +68,11 @@ I started to use Linux 10 years ago (Debian based distribution like Debian, Ubun
     - [gihub](https://github.com/ghtmtt) profile
     - [gitlab](https://gitlab.com/ghtmtt) profile
 
+&nbsp;
+
 * **Web**:
     - good knowledge of HTML and CSS
-    - static site generators [Jekyll](https://jekyllrb.com/), [Pelican](https://blog.getpelican.com/): this website has been independently written in Pelican
+    - static site generators [Jekyll](https://jekyllrb.com/), [Pelican](https://blog.getpelican.com/): this website itself has been independently and complete written in Pelican
 
 
 # Working Experience
