@@ -12,13 +12,18 @@ QGIS allows to maintain complex project with tons of layers; moreover a very com
 
 With additional plugins it is even simpler to create *time maps* and 3D maps.
 
-### Gallery
-Animated map of earthquakes, official data from [INGV](http://cnt.rm.ingv.it/)
+## Thematic Maps
 
-![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=75% }
+![](/extras/ita_geo.png){ width=50% }
 
-<br>
+## Time Maps
 
-3D Mountain Map
+**Animated map of the Central Italian earthquake of August 2016 [INGV](http://cnt.rm.ingv.it/)**
 
-![Alpi Apuane](/extras/3dgif.gif){ width=75% }
+![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=50% }
+
+## 3D Maps
+
+**3D map of Apuan Alps**
+
+![Alpi Apuane](/extras/3dgif.gif){ width=50% }

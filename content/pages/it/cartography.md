@@ -13,13 +13,18 @@ QGIS è un software estremamente versatile e completo che permette di gestire pr
 Altri strumenti permetto di creare *mappe temporali* e splendide mappe 3D.
 
 
-### Galleria
-Mappa animata del terremoto di Amatrice, dati forniti da [INGV](http://cnt.rm.ingv.it/)
+## Mappe tematiche
 
-![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=75% }
+![](/extras/ita_geo.png){ width=50% }
 
-<br>
+## Mappe animate
 
-Mappa 3D delle Alpi Apuane
+**Mappa animata del terremoto di Amatrice, dati forniti da [INGV](http://cnt.rm.ingv.it/)**
 
-![Alpi Apuane](/extras/3dgif.gif){ width=75% }
+![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=50% }
+
+## Mappe 3D
+
+**Mappa 3D delle Alpi Apuane**
+
+![Alpi Apuane](/extras/3dgif.gif){ width=50% }
