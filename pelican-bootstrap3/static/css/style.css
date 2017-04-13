@@ -252,10 +252,11 @@ figure.floatcenter, .align-center {
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto;
-  height: 500px;
+  max-height: 100%;
+  max-width: 100%;
   margin:0;
   padding:0px;
-  background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+  background: url('/extras/norway_map.png') no-repeat center center scroll;
   /*text-align: center;*/
   vertical-align: middle
 }

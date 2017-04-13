@@ -132,16 +132,48 @@ a parte navbar e footer -->
 
         <!-- First Featurette -->
         <div class="featurette">
-            <h2 class="featurette-heading">This First Heading
-            <span class="text-muted">Will Catch Your Eye</span>
+            <h2 class="featurette-heading">{{ _('Advanced Cartography, Data Analysis and Customized scripting solutions')}}
+              <br>
+            <span class="text-muted">{{ _('What are you waiting for?') }}</span>
             </h2>
-            <p class="lead">{{ _('Geographer, Computer Software, Traveler') }}</p>
 					</div>
 </div>
 </div>
 </div>
 
-
+<!-- Projects Row -->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="{{SITEURL}}/pages/cartography.html">
+                    <img class="img-responsive" src="/extras/maps.png" alt="">
+                </a>
+                <h3>
+                    <a href="{{SITEURL}}/pages/cartography.html">{{ _('Advanced Cartography') }}</a>
+                </h3>
+                <p>{{ _('Builing professional maps for all the needs: complex and complete symbology, data cleaning and layout formats.') }}</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/extras/RStudio.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">{{ _('Data Analysis') }}</a>
+                </h3>
+                <p>{{ _('Data analysis and advanced statistics and geostatistic solutions using advanced software tools. Customized scripting suites for perfect results.') }}</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/extras/maps2.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">{{ _('Training') }}</a>
+                </h3>
+                <p>{{ _('Want to learn or improve your skills in QGIS, R and RStudio or Linux? Customized training is the solution!') }}</p>
+            </div>
+        </div>
+      </div>
+<!-- /.row -->
 
 {% include 'includes/footer.html' %}
 
