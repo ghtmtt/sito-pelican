@@ -11,7 +11,7 @@ The pdf or the CV is available at [this link](/extras/Matteo_Ghetta_CV.pdf).
 # Professional competences
 Since many years I work with geographic open source software, but I have several experience also in statistical and geostatistical analysis, informatics and cartography.
 
-## Geographical and Cartographic competences
+## Geography and Cartography
 I am involved with the development team of [QGIS](www.qgis.org), but I have also experience with other software like [[GRASS](https://grass.osgeo.org/), [SAGA](http://www.saga-gis.org/en/index.html), spatial databases  [SpatiaLite](http://www.gaia-gis.it/gaia-sins/) and [PostGIS](http://postgis.net/) and with WebGIS [Lizmap](https://www.3liz.com/lizmap.html).
 
 
@@ -38,7 +38,7 @@ I am involved with the development team of [QGIS](www.qgis.org), but I have also
     - technical assistance during the installation phase and software functionalities
 
 
-## Statistical and Informatics competences
+## Statistics and IT
 I use mainly [R](https://www.r-project.org/) and [Python](https://www.python.org) for statistical analysis but I also have good knowledge with [Matlab](https://it.mathworks.com/products/matlab.html).
 
 

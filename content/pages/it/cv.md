@@ -11,7 +11,7 @@ template: page_about
 # Competenze professionali
 Da diversi anni lavoro con software open source geografici, ma ho maturato diverse competenze in ambito statistico e geostatistico, informatico e cartografico.
 
-## Competenze geografiche e cartografiche
+## GIS e cartografia
 Da molti anni sono coninvolto in prima persona nel software open source [QGIS](www.qgis.org), ma ho esperienza anche nell'utlizzo di altri software [[GRASS](https://grass.osgeo.org/), [SAGA](http://www.saga-gis.org/en/index.html), database spaziali come [SpatiaLite](http://www.gaia-gis.it/gaia-sins/) e [PostGIS](http://postgis.net/) e in WebGIS [Lizmap](https://www.3liz.com/lizmap.html).
 
 * **QGIS**:
@@ -36,7 +36,7 @@ Da molti anni sono coninvolto in prima persona nel software open source [QGIS](w
     - creazione mappe 3D
     - assistenza tecnica durante l'installazione dei programmi e il loro funzionamento
 
-## Competenze statistiche e informatiche
+## Statistica e IT
 Utilizzo prevalentemente [R](https://www.r-project.org/) e [Python](https://www.python.org) come software statistici, ma ho diversa esperienza anche con [Matlab](https://it.mathworks.com/products/matlab.html).
 
 Da 10 anni utilizzo Linux come sistema operativo (distribuzioni Debian based come Debian, Ubuntu e Mint) ed ho avuto occasione di approfondire molto le conoscenze amminstrative di Linux.
