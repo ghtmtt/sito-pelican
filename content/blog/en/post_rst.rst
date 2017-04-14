@@ -2,10 +2,10 @@ First RST post
 ##############
 
 :date: 2010-10-03 10:20
-:category: yeah
 :slug: rst-post
 :author: Matteo Ghetta
 :tags: toc, images
+:lang: en
 
 Ciao
 ====
