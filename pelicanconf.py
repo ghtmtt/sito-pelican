@@ -7,6 +7,7 @@ SITENAME = u'GeoPenguin'
 SITEURL = ''
 # workaround to make languages work, see includes/nav.bar
 SITEURLABS = SITEURL
+SITELOGO = 'images/site/logo.png'
 
 
 PATH = 'content'
@@ -38,8 +39,9 @@ STATIC_PATHS = ['images', 'extras']
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # categories on the lateral sidebar
-DISPLAY_CATEGORIES_ON_SIDEBAR = True
-SHOW_ARTICLE_CATEGORY = True
+DISPLAY_CATEGORIES_ON_SIDEBAR = False
+DISPLAY_TAGS_ON_SIDEBAR = True
+SHOW_ARTICLE_TAG = True
 
 
 # for ordering pages relative to the attribute metadata. ALL PAGES MUST HAVE IT!
