@@ -114,17 +114,15 @@ a parte navbar e footer -->
 <!-- Full Width Image Header -->
 <div class="container-fluid">
     <div class="row">
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h1>GeoPenguin</h1>
-                <h3>Open Source Ideas</h3>
-            </div>
-        </div>
-    </header>
+    <!-- <header> -->
+      <img class="img-responsive" src="/extras/header_map2.png" alt="">
+    <!-- </header> -->
+    </div>
+
 
     <!-- Page Content -->
     <div class="container">
+      <div class="row">
 
       <!-- <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0ukesbuman7&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script> -->
 
@@ -139,7 +137,10 @@ a parte navbar e footer -->
 					</div>
 </div>
 </div>
+
 </div>
+
+<br>
 
 <!-- Projects Row -->
       <div class="container">
@@ -158,16 +159,16 @@ a parte navbar e footer -->
                     <img class="img-responsive" src="/extras/RStudio.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">{{ _('Data Analysis') }}</a>
+                    <a href="{{SITEURL}}/pages/data-analysis.html">{{ _('Data Analysis and Scripting') }}</a>
                 </h3>
                 <p>{{ _('Data analysis and advanced statistics and geostatistic solutions using advanced software tools. Customized scripting suites for perfect results.') }}</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="/extras/maps2.png" alt="">
+                <a href="{{SITEURL}}/pages/training.html">
+                    <img class="img-responsive" src="/extras/training.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">{{ _('Training') }}</a>
+                    <a href="{{SITEURL}}/pages/training.html">{{ _('Training') }}</a>
                 </h3>
                 <p>{{ _('Want to learn or improve your skills in QGIS, R and RStudio or Linux? Customized training is the solution!') }}</p>
             </div>
