@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-04-04 12:42-0500\n"
+"POT-Creation-Date: 2017-04-14 18:02-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,50 +17,109 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: templates/article_list-blog.html:19 templates/article_list.html:19
+#: templates/archives.html:2 templates/archives.html:7
+#: templates/includes/nav-menu-blog.html:166
+msgid "Archives"
+msgstr ""
+
+#: templates/archives.html:14
+msgid "Archives of all the post"
+msgstr ""
+
+#: templates/article_list-blog.html:20 templates/article_list.html:19
 msgid "Read more"
+msgstr ""
+
+#: templates/article_list-blog.html:21
+msgid "Published on "
 msgstr ""
 
 #: templates/author.html:9
 msgid "Authors"
 msgstr ""
 
-#: templates/base-blog.html:210 templates/base.html:210
-#: templates/base_page.html:212 templates/index.html:210
-msgid "Archives"
-msgstr ""
-
-#: templates/categories.html:8 templates/category.html:11
+#: templates/categories.html:2 templates/categories.html:8
+#: templates/category.html:11 templates/includes/nav-menu-blog.html:66
+#: templates/includes/sidebar-article.html:37
 #: templates/includes/sidebar-blog.html:9 templates/includes/sidebar.html:46
 msgid "Categories"
 msgstr ""
 
-#: templates/index.html:226
-msgid "I am Here"
+#: templates/categories.html:15
+msgid "All Blog Categories"
+msgstr ""
+
+#: templates/index.html:133
+msgid "Advanced Cartography, Data Analysis and Customized scripting solutions"
+msgstr ""
+
+#: templates/index.html:135
+msgid "What are you waiting for?"
+msgstr ""
+
+#: templates/index.html:153
+msgid "Advanced Cartography"
+msgstr ""
+
+#: templates/index.html:155
+msgid ""
+"Builing professional maps for all the needs: complex and complete "
+"symbology, data cleaning and layout formats."
+msgstr ""
+
+#: templates/index.html:162
+msgid "Data Analysis and Scripting"
+msgstr ""
+
+#: templates/index.html:164
+msgid ""
+"Data analysis and advanced statistics and geostatistic solutions using "
+"advanced software tools. Customized scripting suites for perfect results."
+msgstr ""
+
+#: templates/includes/nav-menu.html:61 templates/index.html:171
+msgid "Training"
+msgstr ""
+
+#: templates/index.html:173
+msgid ""
+"Want to learn or improve your skills in QGIS, R and RStudio or Linux? "
+"Customized training is the solution!"
 msgstr ""
 
 #: templates/search.html:4
 msgid "Search"
 msgstr ""
 
+#: templates/includes/nav-menu-blog.html:67 templates/includes/nav-menu.html:83
+#: templates/includes/sidebar-article.html:56
+#: templates/includes/sidebar.html:65 templates/includes/taglist.html:2
+#: templates/tags.html:3
+msgid "Tags"
+msgstr ""
+
+#: templates/tags.html:16
+msgid "All Blog Tags"
+msgstr ""
+
 #: templates/includes/aboutme.html:9
 msgid "About"
 msgstr ""
 
-#: templates/includes/article_info.html:8
+#: templates/includes/article_info.html:10
 msgid "Modified"
 msgstr ""
 
-#: templates/includes/article_info.html:17 templates/includes/sidebar.html:81
+#: templates/includes/article_info.html:19 templates/includes/sidebar.html:81
 msgid "Series"
 msgstr ""
 
-#: templates/includes/article_info.html:24
+#: templates/includes/article_info.html:26
 msgid "By"
 msgstr ""
 
-#: templates/includes/article_info.html:30
-msgid "Category"
+#: templates/includes/article_info.html:32
+msgid "Tag"
 msgstr ""
 
 #: templates/includes/cc-license.html:62
@@ -83,6 +142,31 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
+#: templates/includes/nav-menu.html:51
+msgid "Cartography"
+msgstr ""
+
+#: templates/includes/nav-menu.html:56
+msgid "Data Analysis"
+msgstr ""
+
+#: templates/includes/nav-menu.html:79
+msgid "Blog Posts"
+msgstr ""
+
+#: templates/includes/nav-menu.html:88
+#: templates/includes/sidebar-article.html:75
+msgid "Post Archives"
+msgstr ""
+
+#: templates/includes/nav-menu.html:105
+msgid "About Me"
+msgstr ""
+
+#: templates/includes/nav-menu.html:108
+msgid "CV"
+msgstr ""
+
 #: templates/includes/pagination.html:5 templates/includes/pagination.html:7
 msgid "Newer"
 msgstr ""
@@ -91,16 +175,13 @@ msgstr ""
 msgid "Older"
 msgstr ""
 
-#: templates/includes/sidebar.html:11
-msgid "a translatable string"
-msgstr ""
-
+#: templates/includes/sidebar-article.html:16
 #: templates/includes/sidebar.html:32
 msgid "Recent Posts"
 msgstr ""
 
-#: templates/includes/sidebar.html:65 templates/includes/taglist.html:2
-msgid "Tags"
+#: templates/includes/sidebar.html:11
+msgid "a translatable string"
 msgstr ""
 
 #: templates/includes/sidebar.html:85
