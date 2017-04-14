@@ -28,9 +28,9 @@
         {% endif %}
     {% endif %}
 
-    {% if SHOW_ARTICLE_CATEGORY %}
-        <span class="label label-default">{{ _('Category') }}</span>
-        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+    {% if SHOW_ARTICLE_TAG %}
+        <!-- <span class="label label-default">{{ _('Tag') }}</span> -->
+        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.tag }}</a>
     {% endif %}
 
     {% if PDF_PROCESSOR %}

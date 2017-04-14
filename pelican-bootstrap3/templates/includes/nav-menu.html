@@ -12,7 +12,7 @@
 
 
             <a href="{{ SITEURL }}/" class="navbar-brand">
-                {% if SITELOGO %}<img class="img-responsive pull-left gap-right" src="{{ SITEURL }}/{{ SITELOGO }}" width="{{ SITELOGO_SIZE }}"/> {% endif %}
+                {% if SITELOGO %}<img class="img-responsive pull-left gap-right" src="{{ SITEURLABS }}/{{ SITELOGO }}" width="{{ SITELOGO_SIZE }}"/> {% endif %}
                 {% if not HIDE_SITENAME %}{{ SITENAME }}{% endif %}
             </a>
         </div>
@@ -52,7 +52,7 @@
 								<a href="{{ SITEURL }}/pages/data-analysis.html">{{ _('Data Analysis') }}</a>
 							</li>
               <li>
-								<a href="{{ SITEURL }}/pages/linux-course.html">{{ _('Training') }}</a>
+								<a href="{{ SITEURL }}/pages/training.html">{{ _('Training') }}</a>
 							</li>
             </ul>
         </li>
@@ -71,10 +71,6 @@
 								<a href="{{ SITEURL }}/pages/blog.html">
 									<i class="fa fa-newspaper-o"></i>
 									{{ _('Blog Posts')}}
-								</a></li>
-              <li>
-								<a href="{{ SITEURL }}/categories.html">
-									<i class="fa fa-book fa-lg"></i>{{ _('Categories')}}
 								</a></li>
               <li>
 								<a href="{{ SITEURL }}/tags.html">

@@ -17,7 +17,7 @@
                 {% endif %}
                 <div class="summary">{{ article.summary }}
                     {% include 'includes/comment_count.html' %}
-                    <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">{{ _('Read more') }} ...</a>
+                    <a class="label label-default" href="{{ SITEURL }}/{{ article.url }}">{{ _('Read more') }} ...</a>
                     {{ _('Published on ') }}<span class="label label-default">{{ article.locale_date }}</span>
                 </div>
             </article>
