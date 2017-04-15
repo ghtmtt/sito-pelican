@@ -1,4 +1,4 @@
-Title: Setup Pelican
+Title: Pelican Setup
 Date: 2017-04-14
 Slug: pelican-setup
 lang: en
