@@ -14,16 +14,16 @@ With additional plugins it is even simpler to create *time maps* and 3D maps.
 
 ## Thematic Maps
 
-![](/extras/ita_geo.png){ width=50% }
+![](/extras/cartography/ita_geo.png){ width=50% }
 
 ## Time Maps
 
 **Animated map of the Central Italian earthquake of August 2016 [INGV](http://cnt.rm.ingv.it/)**
 
-![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=50% }
+![Animated map of earthquakes](/extras/cartography/earthquakes_ita.gif){ width=50% }
 
 ## 3D Maps
 
 **3D map of Apuan Alps**
 
-![Alpi Apuane](/extras/3dgif.gif){ width=50% }
+![Alpi Apuane](/extras/cartography/3dgif.gif){ width=50% }

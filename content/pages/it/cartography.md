@@ -15,16 +15,16 @@ Altri strumenti permetto di creare *mappe temporali* e fantastiche mappe 3D.
 
 ## Mappe tematiche
 
-![](/extras/ita_geo.png){ width=50% }
+![](/extras/cartography/ita_geo.png){ width=50% }
 
 ## Mappe animate
 
 **Mappa animata del terremoto di Amatrice, dati forniti da [INGV](http://cnt.rm.ingv.it/)**
 
-![Animated map of earthquakes](/extras/earthquakes_ita.gif){ width=50% }
+![Animated map of earthquakes](/extras/cartography/earthquakes_ita.gif){ width=50% }
 
 ## Mappe 3D
 
 **Mappa 3D delle Alpi Apuane**
 
-![Alpi Apuane](/extras/3dgif.gif){ width=50% }
+![Alpi Apuane](/extras/cartography/3dgif.gif){ width=50% }
