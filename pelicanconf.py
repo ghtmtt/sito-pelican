@@ -76,16 +76,9 @@ PLUGINS = ['i18n_subsites', 'headerid', 'tipue_search']
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'it': {
-        # 'MENUITEMS': [
-        #     ('Blog', '/pages/about.html')
-        # ],
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
     },
     'en': {
-        # 'MENUITEMS': [
-        #     ('Blog', '/pages/courses.html')
-        # ],
-        # 'OUTPUT_PATH': 'output/en',
         'THEME_STATIC_DIR': 'pelican-bootstrap3',
     },
 }
@@ -118,21 +111,6 @@ JINJA_FILTERS = {
 
 # google analytics code
 GOOGLE_ANALYTICS = "UA-96942229-1"
-
-# settings for the comments
-# DISQUS_SITENAME = "geopenguin"
-# hack to make the url absolute, see comments.html
-# DISQUS_URL = "http://geopenguin.com"
-
-
-# for the moment, hardcode index, category and tag pages for languages
-# see includes/nav-bar
-INDEX_EN = 'http://localhost:8000/en/'
-INDEX_IT = 'http://localhost:8000/it/'
-CATEGORY_EN = ''
-CATEGORY_IT = ''
-TAG_EN = ''
-TAG_IT = ''
 
 
 # needed for the searching bar. **ALL TEMPLATED MUST BE ADDED**
