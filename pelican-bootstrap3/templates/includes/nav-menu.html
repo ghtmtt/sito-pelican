@@ -145,11 +145,11 @@
 
     <li{% if lang == DEFAULT_LANG %} class="active"{% endif %}>
 
-    <a href={% if article and not article.tran and lang != DEFAULT_LANG %}
+    <a href={% if article and not article.translations and lang != DEFAULT_LANG %}
     "{{ SITEURL }}/{{ article.url }}"
 
-    {% elif article %}
-    "{{ SITEURL }}/{{ article.url }}"
+    <a href={% elif article and article.translations and lang != DEFAULT_LANG %}
+    "{{ SITEURL }}/{{ article | extract_trans(lang, url) }}"
 
 
     {% elif page and lang != DEFAULT_LANG %}
