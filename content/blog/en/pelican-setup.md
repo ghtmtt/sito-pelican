@@ -22,7 +22,7 @@ I use Linux OS but this guide will be exactly the same for OSX and, maybe with s
 #### virtualenv
 Pelican is a `python` software so it is easy to use and to insall. I definitely recommend to use the great **virtualenv** software to create a virtual python environment and not mess up with other environmental variables.
 
-Be sure to have `virtualenv` installed (instead look [here]()), open a terminal and `cd` wherever you want to create your virtual environment, create and start it:
+Be sure to have `virtualenv` installed (if not, look [here]()), open a terminal and `cd` wherever you want to create your virtual environment, create and start it:
 
 
     $ virtualenv my-site
@@ -35,9 +35,9 @@ Be sure to have `virtualenv` installed (instead look [here]()), open a terminal 
     # finally start the virtual environment
     $ source bin/activate
 
-now you can install `pelican` and all the other additional packages within this virtualenv and with `pip` without touching your system. I strongly suggest to install also the `markdown` package:
+now you can install `pelican` and all the other additional packages within this `virtualenv` and with `pip` without touching your system. I strongly suggest to install also the `markdown` package:
 
-$ pip install pelican markdown
+    $ pip install pelican markdown
 
 you can install additional packages at any time, but for the moment it's enough.
 
