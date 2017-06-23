@@ -18,7 +18,7 @@ Volendo faer il backup di un'intera cartella di lavoro su un dispositivo esterno
 
 Una delle impostazioni più importanti è quella di scegliere il **Tipo** di backup che si vuole fare. Luck offre 2 scelte:
 
-1. **Sorgente del backup dentro la Destinazione**. In questo viene creata una copia esatta  della **Sorgente** dentro la destinazione. Si può spuntare la casella *NON creare altre directory* per **non** creare un'altra cartella dentro la Destinazione:
+1. **Sorgente del backup dentro la Destinazione**. Ottima opzione se si collega un hard disk esterno e si vuole copiare il contenuto di una o più cartelle. In questo viene creata una copia esatta  della **Sorgente** dentro la destinazione. Si può spuntare la casella *NON creare altre directory* per **non** creare un'altra cartella dentro la Destinazione:
 
     Sorgente -> `/home/matteo/Pictures`
     Destinazione -> `/media/usb/Images`
@@ -27,10 +27,28 @@ Una delle impostazioni più importanti è quella di scegliere il **Tipo** di bac
 
     ![](/images/blog/luckyBackup_02.png)
 
-2. **Sincronizzazione Sorgente e Destinazione**. Questa opzione permette di mantenere la copia **più rencete** dei file in entrambe le cartelle Sorgente e Destinazione. Viene fatta una verifica temporale (**snapshot**) dei file e viene quindi copiata la versione più recente in entrambe le direzioni (da Sorgente a Destinazione ma anche viceversa).
+2. **Sincronizzazione Sorgente e Destinazione**. Questa opzione permette di mantenere la copia **più recente** dei file in entrambe le cartelle Sorgente e Destinazione. Viene fatta una verifica temporale (**snapshot**) dei file e viene quindi copiata la versione più recente in entrambe le direzioni (da Sorgente a Destinazione ma anche viceversa). Ottima opzione se si lavora anche sulla Destinazione, non molto indicato se la Destinazione è pensata solamente come una copia della sorgente.
 
     Inoltre, se viene eliminato un file in una delle due cartelle, ma nell'altra cartella viene modificato in un momento successivo, dal momento che la modifica è più rencete rispetto all'eliminazione, il file verrà di nuovo copiato.
 
     ![](/images/blog/luckyBackup_03.png)
 
-Infine, cliccando sul pulsante *Controlla* viene fatta una verifica delle cartelle e del comando ed è possibile copiare la stringa di `rsync` da includere direttamente in uno script bash.
+Infine, cliccando sul pulsante *Controlla* viene fatta una verifica delle cartelle e del comando ed è possibile copiare la stringa di `rsync` da includere direttamente in uno script bash. Si può creare il file `mio_backup.sh` e copiare la stringa:
+
+`#!/bin/bash`
+
+`rsync -h --progress --stats -r -tgo -p -l -D --update /home/matteo/Pictures/ /media/usb/Images`
+
+ed aggiungere la modalità `esecuzione`:
+
+```
+chmod +x mio_backup.sh
+```
+
+e da un terminale eseguire semplicemente:
+
+```
+./mio_backup.sh
+```
+
+per fare il backup in *background*.
