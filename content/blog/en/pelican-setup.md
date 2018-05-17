@@ -139,7 +139,7 @@ For this website I've used the [pelican-bootstrap3 them](https://github.com/getp
 
 This theme is great because it supports really a lot of different plugins and you can customize it with a very little effort.
 
-Changing templates is really super easy. Just go on [this webiste](https://github.com/getpelican/pelican-themes) and if you are familiar with `git` you cann clone the repository, else download it as zip.
+Changing templates is really super easy. Just go on [this webiste](https://github.com/getpelican/pelican-themes) and if you are familiar with `git` you can clone the repository, else download it as zip.
 
 Every folder is a theme; so you can see that you have a lot of themes available (once you have chosen you theme, you can keep just that folder).
 
