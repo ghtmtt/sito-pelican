@@ -1,5 +1,5 @@
 Title: Aggiungere una vista in un geopackage
-Date: 201-05-15
+Date: 2018-05-15
 Slug: view-geopackage
 lang: it
 tags: gis, geopackage
@@ -19,5 +19,4 @@ Prima registrazione nella tabella `gpkg_contents`:
 
 Seconda registrazione dentro la tabella `gpkg_geometry_columns`:
 
-    INSERT INTO gpkg_geometry_columns (table_name, column_name, geometry_type_name, srs_id, z, m)
-    values ('vista', 'vista', 'GEOMETRY', 3003, 0, 0)
+    n po chet
